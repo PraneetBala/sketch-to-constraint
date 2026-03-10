@@ -44,3 +44,7 @@ python main.py --input data/parallel_lines.png --output results/output_parallel.
 - `src/visualize.py`: Overlays detected lines (Red) and inferred constraint connections.
 - `main.py`: The pipeline orchestrator.
 - `generate_samples.py`: Helper script to create mock data.
+
+## 🔮 Future Work
+While this classical approach acts as a lightweight heuristic baseline, the next iterative phase of this project involves **integrating Vision-Language Models (VLMs)**. 
+By utilizing advanced multimodal architectures, the pipeline will be able to ingest highly complex, robust, and noisy engineering sketches and output deep contextual information (e.g., parsing part dimensions, recognizing mechanical hierarchies, and outputting JSON schema) far beyond simple parametric line constraints.
